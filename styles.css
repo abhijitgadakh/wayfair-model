@@ -1,0 +1,268 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* --- UNIVERSAL SELECTOR --- */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+/* --- UNIVERSAL SELECTOR --- */
+
+/* --- HEADERS --- */
+
+/* Top navigation bar */
+.t-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #7b189f;
+  padding: 10px 20px;
+  color: white;
+}
+
+.t-nav-left p {
+  margin: 0;
+  padding-left: 32px;
+  font-size: 14px;
+}
+
+.t-nav-right {
+  display: flex;
+  padding-right: 32px;
+  gap: 25px;
+}
+
+.t-nav-link {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.t-nav-link:hover {
+  text-decoration: underline;
+}
+
+/* Middle navigation bar */
+.m-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #fff;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.m-nav-left {
+  padding-left: 32px;
+  flex: 1;
+}
+
+.nav-logo {
+  height: 50px;
+}
+
+.m-nav-center {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+}
+
+.search-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #333;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.m-nav-right {
+  padding-right: 32px;
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  gap: 15px;
+}
+
+.m-nav-link {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.m-nav-link:hover {
+  color: #7b189f;
+}
+
+.m-nav-icon {
+  margin-right: 5px;
+  height: 32px;
+  width: 32px;
+}
+
+/* .m-sticky {
+  
+} */
+/* Bottom navigation bar */
+.b-nav {
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+  padding: 10px 20px;
+  border-top: 1px solid #fff;
+}
+
+.b-nav-link {
+  margin: 0 10px;
+  font-size: 12px;
+  color: #333;
+  cursor: pointer;
+}
+
+.b-nav-link:hover {
+  color: #7b189f;
+  text-decoration: underline;
+}
+
+/* HERO SECTION  */
+
+.hero-video {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+
+.hero-img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+
+/* HERO SECTION  */
+
+/* DISCOUNT SECTION  */
+
+.discount-section {
+  margin: 48px 32px 20px 32px;
+}
+
+.discount-cards {
+  display: flex;
+  gap: 20px;
+}
+
+.discount-section {
+  /* padding: 20px; */
+  /* background-color: #f9f9f9; */
+  text-align: center;
+}
+
+.discount-section h2 {
+  margin-bottom: 20px;
+  text-align: start;
+  font-size: 28px;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  color: #333;
+}
+
+.discount-cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.discount-card-div {
+  padding: 8px;
+  border-radius: 12px;
+  border: 1px solid #fff;
+}
+
+.discount-card {
+  flex: 1 1 200px;
+  max-width: 250px;
+  border-radius: 8px;
+  overflow: hidden;
+
+  background-color: #fff;
+}
+
+.discount-card img {
+  width: 100%;
+  display: block;
+}
+
+.discount-card-div:hover {
+  border: 1px solid #aaa;
+  background-color: #f1f1f1;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+/* DISCOUNT SECTION  */
+
+/* section-1 */
+.section-1 {
+  margin: 32px 48px 50px 48px;
+}
+.pad-div {
+  padding: 6px;
+  border-radius: 14px;
+  border: 1px solid #fff;
+}
+
+.pad-div:hover {
+  border: 1px solid #aaa;
+  background-color: #f1f1f1;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.section-1-img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+/* section-1 */
+
+.know-more {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  align-items: center;
+  margin: 30px 120px;
+}
+
+.km-left {
+  /* padding-left: 32px; */
+  flex: 1;
+}
+
+.km-left p {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.km-right {
+  flex: 2;
+  display: flex;
+  /* justify-content: space-around; */
+}
+
+.km-search-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #333;
+  border-radius: 8px;
+  font-size: 16px;
+}
