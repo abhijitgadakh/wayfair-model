@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="generalstyles.css" />
     <link rel="stylesheet" href="styles.css" />
   </head>
+
   <body>
     <!-- HEADER  -->
     <header>
@@ -18,7 +19,7 @@
           <p>
             <a href="#" class="t-nav-link"
               >Up to 70% OFF & Fast Shipping | Memorial Day Clearance Feat.
-              Delta</a
+              Delta &#129122;</a
             >
           </p>
         </div>
@@ -39,11 +40,14 @@
           />
         </div>
         <div class="m-nav-center">
-          <input
-            type="text"
-            placeholder="Find anything home..."
-            class="search-input"
-          />
+          <div class="text-input">
+            <ion-icon class="search-icon" name="search-outline"></ion-icon>
+            <input
+              type="text"
+              placeholder="Find anything home..."
+              class="search-input"
+            />
+          </div>
         </div>
         <div class="m-nav-right">
           <a href="#" class="m-nav-link">
@@ -82,7 +86,6 @@
       </div>
     </header>
     <!-- HEADER  -->
-
     <!-- HERO  -->
     <section class="hero-section">
       <a href="#">
@@ -93,12 +96,9 @@
       </a>
     </section>
     <!-- HERO  -->
-
     <!-- DISCOUNT SECTION -->
     <section class="discount-section">
-      <h2 class="discount-section-heading">
-        Memorial Day: nice weather, nicer prices
-      </h2>
+      <h2 class="section-heading">Memorial Day: nice weather, nicer prices</h2>
       <div class="discount-cards">
         <div class="discount-card-div">
           <div class="discount-card">
@@ -125,47 +125,271 @@
     <!-- DISCOUNT SECTION -->
 
     <!-- SECTION 1 -->
-    <section class="section-1">
+    <section class="section">
       <div class="pad-div">
         <a href="#">
-          <img class="section-1-img" src="./res/img-vid/d.png" alt="" />
+          <img class="section-img" src="./res/img-vid/d.png" alt="" />
         </a>
       </div>
     </section>
     <!-- SECTION 1 -->
 
     <!-- SECTION 2 -->
-    <section class="section-1">
+    <section class="section">
       <div class="pad-div">
         <a href="#">
-          <img class="section-1-img" src="./res/img-vid/e.png" alt="" />
+          <img class="section-img" src="./res/img-vid/e.png" alt="" />
         </a>
       </div>
     </section>
     <!-- SECTION 2 -->
+    <!-- SECTION 3 -->
+    <section class="section">
+      <h2 class="section-heading">Deals of the day</h2>
+      <div class="carousel">
+        <button class="btn prev">&#10094;</button>
+        <div class="carousel-wrapper">
+          <div class="carousel-inner">
+            <div class="carousel-item item">
+              <img src="./res/img-vid/f1.png" alt="RE/FINE" />
+              <div class="details">
+                <p class="deal-prduct">Djellona Metal Base Writing Desk</p>
+                <p class="deal-owner">By 17 Stories</p>
+                <p class="price">
+                  <span class="deal-curr-price"> $35.99 </span>
+                  &nbsp;&nbsp;
+                  <span class="deal-original-price">
+                    <del>$59.99</del>
+                  </span>
+                </p>
+                <p class="deal-rating">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star-half-outline"></ion-icon>
+                  <!-- <ion-icon name="star-outline"></ion-icon> -->
+                  <span>(3649)</span>
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item item">
+              <img src="./res/img-vid/f2.png" alt="RE/FINE" />
+              <div class="details">
+                <p class="deal-prduct">
+                  Wayfair Sleep 14" Plush Cooling Gel Hybrid Mattress
+                </p>
+                <p class="deal-owner">By Wayfair Sleep™</p>
+                <p class="price">
+                  <span class="deal-curr-price"> $254.99 </span>
+                  &nbsp;&nbsp;
+                  <span class="deal-original-price">
+                    <del>$555.00</del>
+                  </span>
+                </p>
+                <p class="deal-rating">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star-half-outline"></ion-icon>
+                  <!-- <ion-icon name="star-outline"></ion-icon> -->
+                  <span>(15475)</span>
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item item">
+              <img src="./res/img-vid/f3.png" alt="RE/FINE" />
+              <div class="details">
+                <p class="deal-prduct">
+                  Huang 4 -Person Outdoor Seating Group with...
+                </p>
+                <p class="deal-owner">By Brayden Studio&#174;</p>
+                <p class="price">
+                  <span class="deal-curr-price"> $379.99 </span>
+                  &nbsp;&nbsp;
+                  <span class="deal-original-price">
+                    <del>$439.99</del>
+                  </span>
+                </p>
+                <p class="deal-rating">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star-outline"></ion-icon>
+                  <span>(3558)</span>
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item item">
+              <img src="./res/img-vid/f4.png" alt="RE/FINE" />
+              <div class="details">
+                <p class="deal-prduct">Bratletto Beige Shag Area Rug</p>
+                <p class="deal-owner">By Lark Manor™</p>
+                <p class="price">
+                  <span class="deal-curr-price"> $87.99 </span>
+                  &nbsp;&nbsp;
+                  <span class="deal-original-price">
+                    <del>$175.00</del>
+                  </span>
+                </p>
+                <p class="deal-rating">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star-half-outline"></ion-icon>
+                  <span>(378)</span>
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item item">
+              <img src="./res/img-vid/f5.png" alt="RE/FINE" />
+              <div class="details">
+                <p class="deal-prduct">
+                  Carmille Polyester Semi-sheer Curtain Pair (Set of 2)
+                </p>
+                <p class="deal-owner">By Winston Porter</p>
+                <p class="price">
+                  <span class="deal-curr-price"> $13.99 </span>
+                  &nbsp;&nbsp; $7.00 per item &nbsp;&nbsp;
+                  <span class="deal-original-price">
+                    <del>$215.99</del>
+                  </span>
+                </p>
+                <p class="deal-rating">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star-outline"></ion-icon>
+                  <span>(1938)</span>
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item item">
+              <img src="./res/img-vid/f6.png" alt="RE/FINE" />
+              <div class="details">
+                <p class="deal-prduct">Djellona Metal Base Writing Desk</p>
+                <p class="deal-owner">By 17 Stories</p>
+                <p class="price">
+                  <span class="deal-curr-price"> $55.99 </span>
+                  &nbsp;&nbsp;
+                  <span class="deal-original-price">
+                    <del>$69.99</del>
+                  </span>
+                </p>
+                <p class="deal-rating">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star-half-outline"></ion-icon>
+                  <!-- <ion-icon name="star-outline"></ion-icon> -->
+                  <span>(114)</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="btn next">&#10095;</button>
+      </div>
+    </section>
+    <!-- SECTION 3 -->
 
     <!-- SECTION 4 -->
-    <section class="section-1">
+    <section class="section">
       <div class="pad-div">
         <a href="#">
-          <img class="section-1-img" src="./res/img-vid/g.png" alt="" />
+          <img class="section-img" src="./res/img-vid/g.png" alt="" />
         </a>
       </div>
     </section>
     <!-- SECTION 4 -->
+    <!-- SECTION 5 -->
+    <section class="discount-section">
+      <h2 class="section-heading">Go-tos for summer days (& nights)</h2>
+      <div class="discount-cards">
+        <div class="discount-card-div">
+          <div class="discount-card summer">
+            <img src="./res/img-vid/h1.png" alt="" />
+            <h2>Outdoor rugs from $50</h2>
+            <p>Weather-ready finds in every size and style.</p>
+          </div>
+        </div>
+        <div class="discount-card-div">
+          <div class="discount-card summer">
+            <img src="./res/img-vid/h2.png" alt="" />
+            <h2>Gazebos under $500</h2>
+            <p>Maximum protection from rays(and rain).</p>
+          </div>
+        </div>
+        <div class="discount-card-div">
+          <div class="discount-card summer">
+            <img src="./res/img-vid/h3.png" alt="" />
+            <h2>Status & More under $100</h2>
+            <p>Enhance every inch of your graden or yard.</p>
+          </div>
+        </div>
+        <div class="discount-card-div">
+          <div class="discount-card summer">
+            <img src="./res/img-vid/h4.png" alt="" />
+            <h2>Daybeds from $150</h2>
+            <p>Kick *all* the way back in vacay-worthy Seating.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- SECTION 5 -->
 
     <!-- SECTION 6 -->
-    <section class="section-1">
+    <section class="section">
       <div class="pad-div">
         <a href="#">
-          <img class="section-1-img" src="./res/img-vid/i.png" alt="" />
+          <img class="section-img" src="./res/img-vid/i.png" alt="" />
         </a>
       </div>
     </section>
     <!-- SECTION 6 -->
 
+    <!-- SECTION 7 -->
+    <section class="discount-section">
+      <h2 class="section-heading">Appliances for every need</h2>
+      <div class="discount-cards">
+        <div class="discount-card-div">
+          <div class="discount-card summer">
+            <img src="./res/img-vid/j1.png" alt="" />
+            <h2>Space Heaters</h2>
+            <p>Bring the heat room to room.</p>
+          </div>
+        </div>
+        <div class="discount-card-div">
+          <div class="discount-card summer">
+            <img src="./res/img-vid/j2.png" alt="" />
+            <h2>Mini Fridges</h2>
+            <p>Keep snacks and drinks handy.</p>
+          </div>
+        </div>
+        <div class="discount-card-div">
+          <div class="discount-card summer">
+            <img src="./res/img-vid/j3.png" alt="" />
+            <h2>Patio Heaters</h2>
+            <p>Enjoy your outdoor all year-round.</p>
+          </div>
+        </div>
+        <div class="discount-card-div">
+          <div class="discount-card summer">
+            <img src="./res/img-vid/j4.png" alt="" />
+            <h2>Portable fans</h2>
+            <p>Bring on the breeze (in every room).</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- SECTION 7 -->
     <!-- SECTION 8 -->
-    <section class="section-1">
+    <section class="section">
       <div class="pad-div">
         <a href="#">
           <video class="section-video" loop autoplay muted>
@@ -176,70 +400,515 @@
     </section>
     <!-- SECTION 8 -->
 
+    <div class="big-section">
+      <a href="#">
+        <img class="section-img" src="./res/img-vid/l.png" alt="" />
+      </a>
+      <div class="aside">
+        <h2>Prep for parties</h2>
+        <p>The key to an epic kids birthday bash? Alllll of the color.</p>
+        <a href="#">Start the celebrations</a>
+      </div>
+    </div>
 
-    <!-- SECTION 12 -->
-    <section class="section-1">
+    <!-- SECTION 9 -->
+    <section class="section">
       <div class="pad-div">
         <a href="#">
-          <img class="section-1-img" src="./res/img-vid/m.png" alt="" />
+          <img class="section-img" src="./res/img-vid/m.png" alt="" />
         </a>
+      </div>
+    </section>
+    <!-- SECTION 9 -->
+
+    <!-- SECTION 10 -->
+    <section class="discount-section">
+      <h2 class="section-heading">For cooks, bakers & meal makers</h2>
+      <div class="discount-cards">
+        <div class="discount-card-div">
+          <div class="discount-card summer">
+            <img src="./res/img-vid/n1.png" alt="" />
+            <h2>Cookware Set</h2>
+            <p>Top Brands for newbies "and" pros.</p>
+          </div>
+        </div>
+        <div class="discount-card-div">
+          <div class="discount-card summer">
+            <img src="./res/img-vid/n2.png" alt="" />
+            <h2>Knife sets</h2>
+            <p>Shop brands that are a cut above the rest.</p>
+          </div>
+        </div>
+        <div class="discount-card-div">
+          <div class="discount-card summer">
+            <img src="./res/img-vid/n3.png" alt="" />
+            <h2>Coffee Makers</h2>
+            <p>Ice or hot - brew it your way, every day.</p>
+          </div>
+        </div>
+        <div class="discount-card-div">
+          <div class="discount-card summer">
+            <img src="./res/img-vid/n4.png" alt="" />
+            <h2>Drinkware</h2>
+            <p>Prep for the guests with vibrant glasses and more.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- SECTION 10 -->
+
+    <!-- SECTION 11 -->
+    <section class="section">
+      <div class="pad-div">
+        <a href="#">
+          <img class="section-img" src="./res/img-vid/o.png" alt="" />
+        </a>
+      </div>
+    </section>
+    <!-- SECTION 11 -->
+
+    <!-- SECTION 12 -->
+    <section class="discount-section">
+      <h2 class="section-heading">Bliss out your bedroom</h2>
+      <div class="discount-cards">
+        <div class="discount-card-div">
+          <div class="discount-card summer">
+            <img src="./res/img-vid/p1.png" alt="" />
+            <h2>Bedding sets</h2>
+            <p>Levek up your lie-ins.</p>
+          </div>
+        </div>
+        <div class="discount-card-div">
+          <div class="discount-card summer">
+            <img src="./res/img-vid/p2.png" alt="" />
+            <h2>Sheet sets</h2>
+            <p>In every Material, size, and style.</p>
+          </div>
+        </div>
+        <div class="discount-card-div">
+          <div class="discount-card summer">
+            <img src="./res/img-vid/p3.png" alt="" />
+            <h2>Area rugs</h2>
+            <p>Set comfortable foundation.</p>
+          </div>
+        </div>
+        <div class="discount-card-div">
+          <div class="discount-card summer">
+            <img src="./res/img-vid/p4.png" alt="" />
+            <h2>Mattresses</h2>
+            <p>Find the one that fits your sleep style.</p>
+          </div>
+        </div>
       </div>
     </section>
     <!-- SECTION 12 -->
 
+    <!-- SECTION 13 -->
+    <section class="discount-section">
+      <h2 class="section-heading">Explore our exclusive brands</h2>
+      <p class="section-text">
+        Bring your vision to life with hand-curated collections, price just
+        right .
+      </p>
+      <p><a id="single-link" href="#">Shop All</a></p>
+    </section>
+    <!-- SECTION 13 -->
+
+    <!-- SECTION 14 -->
+    <section class="section">
+      <h2 class="section-heading">Deals of the day</h2>
+      <div class="carousel">
+        <button class="btn prev">&#10094;</button>
+        <div class="carousel-wrapper">
+          <div class="carousel-inner">
+            <div class="carousel-item item">
+              <img src="./res/img-vid/r1.png" alt="RE/FINE" class="mb-10" />
+              <div class="details">
+                <p class="deal-prduct-info">
+                  Reimagine your day (and night) with beding, bath, tabletop,
+                  and more.
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item item">
+              <img src="./res/img-vid/r2.png" alt="RE/FINE" class="mb-10" />
+              <div class="details">
+                <p class="deal-prduct-info">
+                  Reimagine your day (and night) with beding, bath, tabletop,
+                  and more.
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item item">
+              <img src="./res/img-vid/r3.png" alt="RE/FINE" class="mb-10" />
+              <div class="details">
+                <p class="deal-prduct-info">
+                  Reimagine your day (and night) with beding, bath, tabletop,
+                  and more.
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item item">
+              <img src="./res/img-vid/r4.png" alt="RE/FINE" class="mb-10" />
+              <div class="details">
+                <p class="deal-prduct-info">
+                  Reimagine your day (and night) with beding, bath, tabletop,
+                  and more.
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item item">
+              <img src="./res/img-vid/r5.png" alt="RE/FINE" class="mb-10" />
+              <div class="details">
+                <p class="deal-prduct-info">
+                  Reimagine your day (and night) with beding, bath, tabletop,
+                  and more.
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item item">
+              <img src="./res/img-vid/r6.png" alt="RE/FINE" class="mb-10" />
+              <div class="details">
+                <p class="deal-prduct-info">
+                  Reimagine your day (and night) with beding, bath, tabletop,
+                  and more.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="btn next">&#10095;</button>
+      </div>
+    </section>
+    <!-- SECTION 14 -->
+
     <!-- SECTION 15 -->
-    <section class="section-1">
+    <section class="section">
       <div class="pad-div">
         <a href="#">
-          <img class="section-1-img" src="./res/img-vid/o.png" alt="" />
+          <img class="section-img" src="./res/img-vid/s.png" alt="" />
         </a>
       </div>
     </section>
     <!-- SECTION 15 -->
+
+    <!-- SECTION 16 -->
+    <div class="section-impact">
+      <h2>What we're doing to make an impact</h2>
+      <div class="impact-cards">
+        <a href="#" class="impact-card">
+          <img src="./res/img-vid/t1.png" alt="" />
+          <h3 class="impact-head">Contributing to all the homes we share</h3>
+          <p class="impact-text">
+            Learn more about our DEI, Social impact, and Sustainability Work
+            &#129122;
+          </p>
+        </a>
+        <a href="#" class="impact-card">
+          <img src="./res/img-vid/t2.png" alt="" />
+          <h3 class="impact-head">Building supplier diversity</h3>
+          <p class="impact-text">
+            Learn about the makers behind the business &#129122;
+          </p>
+        </a>
+        <a href="#" class="impact-card">
+          <img src="./res/img-vid/t3.png" alt="" />
+          <h3 class="impact-head">All things home, Sustainably</h3>
+          <p class="impact-text">
+            Discover so may (easy!) ways to live more Sustainably &#129122;
+          </p>
+        </a>
+      </div>
+    </div>
+    <!-- SECTION 16 -->
+
+    <!-- SECTION 17 a -->
+    <div class="section-impact">
+      <h2>Shop by department</h2>
+      <div class="depratments">
+        <a href="#" class="department">
+          <div class="dept-details">
+            <img src="./res/img-vid/u1.png" alt="" />
+            <p>Memorial Day Clearance</p>
+          </div>
+        </a>
+        <a href="#" class="department">
+          <div class="dept-details">
+            <img src="./res/img-vid/u2.png" alt="" />
+            <p>Memorial Day Clearance</p>
+          </div>
+        </a>
+        <a href="#" class="department">
+          <div class="dept-details">
+            <img src="./res/img-vid/u3.png" alt="" />
+            <p>Memorial Day Clearance</p>
+          </div>
+        </a>
+        <a href="#" class="department">
+          <div class="dept-details">
+            <img src="./res/img-vid/u4.png" alt="" />
+            <p>Memorial Day Clearance</p>
+          </div>
+        </a>
+        <a href="#" class="department">
+          <div class="dept-details">
+            <img src="./res/img-vid/u5.png" alt="" />
+            <p>Memorial Day Clearance</p>
+          </div>
+        </a>
+        <a href="#" class="department">
+          <div class="dept-details">
+            <img src="./res/img-vid/u6.png" alt="" />
+            <p>Memorial Day Clearance</p>
+          </div>
+        </a>
+        <a href="#" class="department">
+          <div class="dept-details">
+            <img src="./res/img-vid/u7.png" alt="" />
+            <p>Memorial Day Clearance</p>
+          </div>
+        </a>
+        <a href="#" class="department">
+          <div class="dept-details">
+            <img src="./res/img-vid/u8.png" alt="" />
+            <p>Memorial Day Clearance</p>
+          </div>
+        </a>
+        <a href="#" class="department">
+          <div class="dept-details">
+            <img src="./res/img-vid/u9.png" alt="" />
+            <p>Memorial Day Clearance</p>
+          </div>
+        </a>
+        <a href="#" class="department">
+          <div class="dept-details">
+            <img src="./res/img-vid/u10.png" alt="" />
+            <p>Memorial Day Clearance</p>
+          </div>
+        </a>
+        <a href="#" class="department">
+          <div class="dept-details">
+            <img src="./res/img-vid/u11.png" alt="" />
+            <p>Memorial Day Clearance</p>
+          </div>
+        </a>
+        <a href="#" class="department">
+          <div class="dept-details">
+            <img src="./res/img-vid/u12.png" alt="" />
+            <p>Memorial Day Clearance</p>
+          </div>
+        </a>
+        <a href="#" class="department">
+          <div class="dept-details">
+            <img src="./res/img-vid/u13.png" alt="" />
+            <p>Memorial Day Clearance</p>
+          </div>
+        </a>
+        <a href="#" class="department">
+          <div class="dept-details">
+            <img src="./res/img-vid/u14.png" alt="" />
+            <p>Memorial Day Clearance</p>
+          </div>
+        </a>
+      </div>
+    </div>
+    <!-- SECTION 17 a -->
+
+    <!-- SECTION 17 b -->
+    <div class="section-service">
+      <div class="service-cards">
+        <div class="service-card">
+          <img src="./res/img-vid/v1.png" alt="" />
+          <h3 class="service-head">Unbeatable Selection</h3>
+        </div>
+        <div class="service-card">
+          <img src="./res/img-vid/v2.png" alt="" />
+          <h3 class="service-head">Unbeatable Selection</h3>
+        </div>
+        <div class="service-card">
+          <img src="./res/img-vid/v3.png" alt="" />
+          <h3 class="service-head">Fast & Free Shipping Over $35*</h3>
+        </div>
+        <div class="service-card">
+          <img src="./res/img-vid/v4.png" alt="" />
+          <h3 class="service-head">Amazing Value Every Day</h3>
+        </div>
+      </div>
+    </div>
+
+    <!-- SECTION 17 b-->
+
+    <!-- SECTION 18 -->
+    <section class="section">
+      <div class="pad-div">
+        <a href="#">
+          <img class="section-img" src="./res/img-vid/w.jpg" alt="" />
+        </a>
+      </div>
+    </section>
+    <!-- SECTION 18 -->
 
     <!-- SECTION 19 -->
-    <section class="section-1">
-      <div class="pad-div">
-        <a href="#">
-          <img class="section-1-img" src="./res/img-vid/s.png" alt="" />
-        </a>
-      </div>
+    <section class="section-last">
+      <a href="#">
+        <img class="section-img" src="./res/img-vid/x.png" alt="" />
+      </a>
     </section>
-      <!-- SECTION 19 -->
+    <!-- SECTION 19 -->
 
-      <!-- SECTION 20 -->
-    <section class="section-1">
-      <div class="pad-div">
-        <a href="#">
-          <img class="section-1-img" src="./res/img-vid/w.jpg" alt="" />
-        </a>
+    <!-- SECTION 20 -->
+    <div class="know-more">
+      <div class="km-left">
+        <p>Be the first to know about our best deals!</p>
       </div>
-    </section>
-      <!-- SECTION 20 -->
-
-      <!-- SECTION 21 -->
-    <section class="section-1">
-      <div class="pad-div">
-        <a href="#">
-          <img class="section-1-img" src="./res/img-vid/x.png" alt="" />
-        </a>
+      <div class="km-right">
+        <input class="email-input" type="text" placeholder="Email Address" />
+        <button class="submit-btn">Submit</button>
       </div>
-    </section>
-      <!-- SECTION 21 -->
+    </div>
+    <!-- SECTION 20 -->
 
-      <div class="know-more">
-        <div class="km-left">
-          <p>Be the first to know about our best deals!</p>
+    <!-- SECTION 21 -->
+    <div class="container">
+      <div class="column">
+        <h3>About Us</h3>
+        <ul>
+          <li class="contact-list">
+            <a class="contact-link" href="#">About Wayfair</a>
+          </li>
+          <li class="contact-list">
+            <a class="contact-link" href="#">Wayfair Professional</a>
+          </li>
+          <li class="contact-list">
+            <a class="contact-link" href="#">Gift Cards</a>
+          </li>
+          <li class="contact-list">
+            <a class="contact-link" href="#">Wayfair Credit Card</a>
+          </li>
+          <li class="contact-list">
+            <a class="contact-link" href="#">Wayfair Financing</a>
+          </li>
+          <li class="contact-list">
+            <a class="contact-link" href="#">Careers</a>
+          </li>
+          <li class="contact-list">
+            <a class="contact-link" href="#">Sell on Wayfair</a>
+          </li>
+          <li class="contact-list">
+            <a class="contact-link" href="#">Investor Relations</a>
+          </li>
+          <li class="contact-list">
+            <a class="contact-link" href="#">Advertise With Us</a>
+          </li>
+          <li class="contact-list">
+            <a class="contact-link" href="#">Locations</a>
+          </li>
+        </ul>
+      </div>
+      <div class="column">
+        <h3>Customer Service</h3>
+        <ul>
+          <li class="contact-list">
+            <a class="contact-link" href="#">My Orders</a>
+          </li>
+          <li class="contact-list">
+            <a class="contact-link" href="#">My Account</a>
+          </li>
+          <li class="contact-list">
+            <a class="contact-link" href="#">Track My Order</a>
+          </li>
+          <li class="contact-list">
+            <a class="contact-link" href="#">Wayfair Accessibility Statement</a>
+          </li>
+          <li class="contact-list">
+            <a class="contact-link" href="#">Return Policy</a>
+          </li>
+          <li class="contact-list">
+            <a class="contact-link" href="#">Help Center</a>
+          </li>
+          <li class="contact-list">
+            <a class="contact-link" href="#">Product Recalls</a>
+          </li>
+        </ul>
+      </div>
+      <div class="column">
+        <h3>Contact Us</h3>
+        <a href="#" class="button button-primary">
+          <span class="contact-btn">
+            <ion-icon class="contact-icons" name="time-outline"></ion-icon>
+            <p>Quick Help</p>
+          </span>
+        </a>
+        <br />
+        <a href="#" class="button button-secondary">
+          <span class="contact-btn">
+            <ion-icon class="contact-icons" name="call-outline"></ion-icon>
+            <p>Call Us</p>
+          </span>
+        </a>
+        <div class="hours">
+          <h4>Customer Service</h4>
+          <p class="hours-text">Open. Closes at 11:59 PM.</p>
+          <p class="hours-text">
+            Mon - Fri: 8:00 AM - 11:59 PM<br />
+            Sat: 8:00 AM - 8:00 PM<br />
+            Sun: 9:00 AM - 6:00 PM<br />
+            All times Eastern
+          </p>
         </div>
-        <div class="km-right">
-          <input
-            type="text"
-            placeholder="Email Address"
-            class="km-search-input"
-          />
+        <div class="hours">
+          <h4>Shopping Assistance</h4>
+          <p class="hours-text">Open. Closes at 11:59 PM.</p>
+          <p class="hours-text">
+            Mon - Fri: 8:00 AM - 11:59 PM<br />
+            Sat: 8:00 AM - 8:00 PM<br />
+            Sun: 9:00 AM - 6:00 PM<br />
+            All times Eastern
+          </p>
         </div>
       </div>
-    </section>
+    </div>
+    <!-- SECTION 21 -->
+
+    <!-- SECTION 22 -->
+    <div class="footer">
+      <div class="promoters">
+        <a href="#" class="img-logo-link">
+          <img src="./res/img-vid/y1.png" alt="logo" class="img-logo" />
+        </a>
+        <a href="#" class="img-logo-link">
+          <img src="./res/img-vid/y2.png" alt="logo" class="img-logo" />
+        </a>
+        <a href="#" class="img-logo-link">
+          <img src="./res/img-vid/y3.png" alt="logo" class="img-logo" />
+        </a>
+      </div>
+      <div class="social-media">
+        <a href="#" class="social-icon-link">
+          <ion-icon class="social-icon" name="logo-twitter"></ion-icon>
+        </a>
+        <a href="#" class="social-icon-link">
+          <ion-icon class="social-icon" name="logo-facebook"></ion-icon>
+        </a>
+        <a href="#" class="social-icon-link">
+          <ion-icon class="social-icon" name="logo-pinterest"></ion-icon>
+        </a>
+        <a href="#" class="social-icon-link">
+          <ion-icon class="social-icon" name="logo-instagram"></ion-icon>
+        </a>
+      </div>
+      <div class="doc-links">
+        <a class="doc-link" href="#">Terms of Use</a>
+        <a class="doc-link" href="#">Privacy Policy</a>
+        <a class="doc-link" href="#">Your Privacy Rights & Choices</a>
+      </div>
+
+      <p>
+        © 2002 - 2024 by Wayfair LLC, 4 Copley Place, 7th Floor, Boston, MA
+        02116
+      </p>
+    </div>
+    <!-- SECTION 22 -->
     <!-- SCRIPTS -->
     <!-- 1 ionicons -->
     <script
