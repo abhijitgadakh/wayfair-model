@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* --- UNIVERSAL SELECTOR --- */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+/* --- UNIVERSAL SELECTOR --- */
+.container {
+  width: 1500px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 80px auto 0 auto;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #aaa;
+}
+
+.secure p {
+  font-size: 20px;
+}
+
+.small-container {
+  width: 550px;
+  margin: 40px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.small-container h2 {
+  text-align: center;
+  margin: 30px;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+input[type="text"],
+input[type="password"] {
+  padding: 15px 10px;
+  font-size: 20px;
+  width: 100%;
+  border: 1px solid #7b189f;
+  border-radius: 10px;
+  outline: none;
+}
+
+.input[type="password"] {
+  width: 80%;
+}
+
+.btn {
+  margin-top: 30px;
+  border: none;
+  width: 100%;
+  padding: 25px 50px;
+  background-color: #7b189f;
+  color: #fff;
+  border-radius: 100px;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: #9128b7;
+}
+
+.btn-create-acc {
+  width: 60%;
+  margin-bottom: 20px;
+}
+
+.password p {
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+p a:link {
+  color: #7b189f;
+}
+
+p a:hover {
+  text-decoration: none;
+}
+
+.success h2 {
+  color: #7b189f;
+}
+p big {
+  font-size: 24px;
+}
+
+.hide {
+  /* visibility: hidden; */
+  display: none;
+}
