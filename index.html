@@ -12,7 +12,9 @@
   </head>
 
   <body>
-    <!-- HEADER  -->
+    <div class="active-blur"></div>
+    <div class="main-section">
+      <!-- HEADER  -->
     <header>
       <div class="t-nav">
         <div class="t-nav-left">
@@ -61,7 +63,7 @@
             </span>
             <span> Sign In </span>
           </a>
-          <a href="./products/products.html" class="m-nav-link">
+          <a id="open-cart" class="m-nav-link">
             <span>
               <ion-icon class="m-nav-icon" name="cart-outline"></ion-icon>
             </span>
@@ -1024,6 +1026,37 @@
       </p>
     </div>
     <!-- SECTION 22 -->
+    </div>
+
+    <!-- CART -->
+    <div class="cart-slider hide">
+      <div class="close-slider">
+        <ion-icon class="close-icon"  name="close-outline"></ion-icon>
+      </div>
+      
+      <h2>Oh-no! Looks like your cart is empty.</h2>
+        <p class="main-subtext">Here are some options to get you started:</p>
+      <div class="suggestions">
+        <p class="suggestion-text">
+          <ion-icon class="sugg-icon" name="person-outline"></ion-icon>&nbsp;&nbsp;
+          <span>
+            <a href="./sign-in/signin.html">Sign In</a>
+          to view your saved items
+          </span>
+        </p>
+        <p class="suggestion-text">
+          <ion-icon class="sugg-icon" name="pricetag-outline"></ion-icon>&nbsp;&nbsp;
+          <span>
+            Start saving with <a href="./products/products.html">Daily Sales</a>
+          </span>  
+        </p>
+      </div>
+
+
+    </div>
+    <!-- CART -->
+
+
     <!-- SCRIPTS -->
     <!-- 1 ionicons -->
     <script
