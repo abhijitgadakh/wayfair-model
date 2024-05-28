@@ -152,6 +152,10 @@ input[type="text"] {
   border-bottom: 2px solid #fff;
 }
 
+.b-nav-link:link {
+  text-decoration: none;
+}
+
 .b-nav-link:hover {
   color: #7b189f;
   /* text-decoration: underline; */
@@ -451,7 +455,7 @@ input[type="text"] {
 }
 .deal-curr-price {
   font-size: 18px;
-  color: #cb1e5e;
+  color: #82123b;
   font-weight: 500;
 }
 .deal-original-price {
