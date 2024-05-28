@@ -384,13 +384,15 @@ input[type="text"] {
 
 .carousel {
   position: relative;
+  width: 100%;
+  max-width: 1200px;
   overflow: hidden;
   display: flex;
   align-items: center;
 }
 
 .carousel-wrapper {
-  /* overflow: hidden; */
+  overflow: hidden;
   width: 100%;
 }
 
@@ -401,11 +403,10 @@ input[type="text"] {
 
 .carousel-item {
   min-width: 20%;
+  border-radius: 10px;
   box-sizing: border-box;
-  border-radius: 14px;
-  overflow: hidden;
-  padding: 16px;
-  /* margin: 20px; */
+  text-align: center;
+  padding: 10px;
 }
 
 .carousel-item img {

@@ -6,9 +6,11 @@ const itemsVisible = 5;
 let currentIndex = 0;
 
 const updateCarousel = () => {
-  carouselInner.style.transform = `translateX(-${
-    currentIndex * (100 / itemsVisible)
-  }%)`;
+  if (currentIndex * (100 / itemsVisible) <= 40) {
+    carouselInner.style.transform = `translateX(-${
+      currentIndex * (100 / itemsVisible)
+    }%)`;
+  }
 };
 
 prevButton.addEventListener("click", () => {
