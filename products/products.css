@@ -87,6 +87,15 @@ body {
   margin: 0 10px 0 5px;
 }
 
+.btn-search {
+  display: none;
+  border: none;
+  background-color: #fff;
+  font-size: 14px;
+  padding-left: 6px;
+  border-left: 1px solid #000;
+}
+
 .search-input {
   width: 100%;
   padding: 8px;
@@ -935,4 +944,198 @@ ul li {
 
 .hide {
   display: none;
+}
+
+@media (max-width: 1040px) {
+  .hideon-mid-sm {
+    display: none;
+  }
+
+  .b-nav {
+    display: none;
+  }
+
+  .t-nav {
+    display: flex;
+    justify-content: center;
+  }
+
+  .t-nav-left {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  /* Styles for medium screens */
+  .m-nav .search-input {
+    width: 100%; /* Make search input full width */
+  }
+
+  .btn-search {
+    display: block;
+  }
+
+  .carousel .carousel-inner {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+  }
+
+  .carousel .item {
+    flex: 0 0 auto;
+    margin-right: 10px;
+  }
+
+  .carousel .btn {
+    display: none; /* Hide carousel navigation buttons */
+  }
+
+  .b-nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .b-nav p {
+    margin: 5px 0;
+  }
+
+  .discount-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .discount-card-div {
+    margin-bottom: 20px;
+    width: 100%;
+  }
+
+  .discount-card {
+    width: 100%;
+  }
+}
+@media (max-width: 480px) {
+  .m-nav .search-input {
+    width: 100%;
+  }
+
+  .b-nav {
+    display: none;
+  }
+  .t-nav {
+    display: none;
+  }
+  /* ------------------------------------------------------------ */
+  .m-nav {
+    flex-direction: column;
+  }
+
+  .hideon-mid-sm {
+    display: block;
+  }
+
+  .m-nav-left,
+  .m-nav-center,
+  .m-nav-right {
+    flex: 1 1 100%;
+  }
+
+  .m-nav-left {
+    order: 1;
+    justify-content: center;
+  }
+
+  .m-nav-center {
+    order: 2;
+    margin: 10px 0;
+  }
+
+  .m-nav-right {
+    order: 3;
+    justify-content: center;
+  }
+  /* ------------------------------------------------------------ */
+  .m-nav-left,
+  .m-nav-right {
+    flex: 1;
+  }
+
+  .m-nav-center {
+    width: 100%;
+  }
+
+  .hero-video {
+    width: 100%;
+    height: auto;
+  }
+
+  .section-img {
+    width: 100%;
+    height: auto;
+  }
+
+  .carousel .carousel-inner {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .carousel .item {
+    margin-bottom: 20px;
+  }
+
+  .discount-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .discount-card-div {
+    margin-bottom: 20px;
+    width: 100%;
+  }
+
+  .discount-card {
+    width: 100%;
+  }
+
+  .footer-section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-section-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-section-2 .footer-link {
+    margin: 5px 0;
+  }
+  .impact-head,
+  .impact-text {
+    display: none;
+  }
+
+  .depratments {
+    margin-top: 14px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* grid-template-rows: repeat(2, 1fr); */
+    /* gap: 20px; */
+    align-items: center;
+    justify-content: center;
+  }
+
+  .section-service {
+    border-top: 1px solid #f1f1f1;
+  }
+
+  .service-cards {
+    margin-top: 14px;
+    margin-bottom: 48px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* grid-template-rows: repeat(2, 1fr); */
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+  }
 }
